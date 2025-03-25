@@ -1,6 +1,6 @@
 import userModel from "./../models/userModel.js";
 import jwt from "jsonwebtoken"; //Generates and verifies authentication tokens.
-import bcrypt from "bcrypt"; //Hashes passwords and verifies them securely.
+import bcrypt from 'bcryptjs'; //Hashes passwords and verifies them securely.
 import validator from "validator"; //it simply checks the format of data like(isEmail,isUrl...)
 
 //login user
